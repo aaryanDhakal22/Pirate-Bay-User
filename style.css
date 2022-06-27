@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+html{
+    font-family:'Montserrat', sans-serif;
+}
+#main_text{
+    font-size : 70px;
+    text-align: center;
+
+}
+
+.rep_tiles{
+    margin-top : 10px;
+    padding : 30px 10px;
+    border : 1px solid rgb(194, 186, 186);
+    border-radius: 10px;
+    }
+
+.rep_tiles #text{
+display : inline;
+font-size: 20px;
+margin-left : 1%;
+}
+
+.rep_tiles #btns{
+float : right;
+margin-top: -10px;
+}
+.rep_tiles #btns button{
+font-size: 25px;
+padding: 10px;
+outline: none;
+border-radius : 5px;
+}
+.rep_tiles #btns #download{
+background-color : white;
+color : #18dcff;
+border :1px solid #18dcff;
+}
+.rep_tiles #btns #download:hover{
+background-color : #18dcff;
+color : white;
+border :1px solid #18dcff;
+transition: 0.4s
+}
+#resrc_box{
+
+    margin: auto;
+    margin-top : 10px;
+    width : 90%;
+    padding : 30px;
+    box-shadow : 3px 4px 20px #aaa;
+    }
